@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather APP</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="custom.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="search_bar">
+            <input type="text" name="search" placeholder="Search for location" class="sc">
+            <button class="icon"><i class="fa-solid fa-magnifying-glass " style="color:rgb(115, 110, 110)"></i></button>
+        </div>
+        <div class="weather">
+            <img src="images/clear.png" alt="" width="150px" height="150px" class="weathericon">
+            <h1 class="temp">22°C</h1>
+            <h2 class="city">Bali</h2>
+            <div class="details">
+                <div class="col">
+                    <img src="images/humidity.png" alt="" width="50px" height="50px">
+                    <div>
+                        <p class="humidity">50%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <i class="fa-solid fa-wind wind" style="color: #ffffff;"></i>
+                    <div>
+                        <p class="windspeed">15km/h</p>
+                        <p>Windspeed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="weather.js"></script>
+</html>
